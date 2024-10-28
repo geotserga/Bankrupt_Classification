@@ -2,6 +2,11 @@
 
 This project applies supervised learning techniques for predicting company bankruptcy, leveraging a range of classification models and data preprocessing methods. It was developed as part of a coursework assignment for the Applied Informatics postgraduate program, focusing on methods and tools in artificial intelligence.
 
+### Dataset
+The dataset consists of company performance indicators, including financial metrics and binary activity indicators for each company, along with a target variable indicating whether a company is healthy or bankrupt. Each entry represents a specific company and includes data over a series of years. Key indicators used in the project include:
+- Financial Indicators: Metrics describing company finances, such as revenue, assets, and debt ratios.
+- Business Status: Binary classification labels ("Healthy" or "Bankrupt").
+
 ### Project Overview
 This analysis seeks to identify financial indicators predictive of bankruptcy. Using company performance metrics, we classify businesses as either "Healthy" or "Bankrupt." Through various classifiers, this project explores the following:
 - **Data Visualization**: Visualizations uncover trends and anomalies, guiding feature selection and model training.
@@ -26,13 +31,15 @@ The best-performing models (Gradient Boosting for balanced data and Multi-layer 
 - **Performance Constraints**: Sensitivity and specificity thresholds guide model selection to prioritize recall for bankrupt cases without sacrificing overall accuracy.
 
 ### Results
-- Balanced vs. Unbalanced Data: Models trained on balanced data consistently outperformed those trained on unbalanced data, particularly in recall and F1 Score.
+- **Balanced vs. Unbalanced Data**: Models trained on balanced data consistently outperformed those trained on unbalanced data, particularly in recall and F1 Score.
 - **Best Performing Models**:
   - **Balanced Data**: Gradient Boosting achieved the highest ROC AUC (0.8477), demonstrating strong class separation.
   - **Unbalanced Data**: Multi-Layer Perceptron achieved the best AUC (0.8482) under unbalanced conditions.
 - **Model Robustness**: Random Forests and Support Vector Machines displayed robustness to data imbalance but showed improved recall on balanced datasets, confirming the importance of balanced data for accurate bankruptcy prediction.
-- **Sensitivity and Specificity Constraints**: Despite the high AUC scores, models struggled to meet the dual performance constraints of detecting at least 60% of bankrupt companies (Sensitivity) and 70% of healthy companies (Specificity). This suggests further optimization or alternative approaches may be necessary to meet specific business requirements. For further insights, please refer to the statistical comparisons and visualizations included in the report.
+- **Sensitivity and Specificity Constraints**: Despite the high AUC scores, models struggled to meet the dual performance constraints of detecting at least 60% of bankrupt companies (Sensitivity) and 70% of healthy companies (Specificity). This suggests further optimization or alternative approaches may be necessary to meet specific business requirements.
+
+For further insights, please refer to the statistical comparisons and visualizations included in the report.
 
 ### Repository Structure
 - *Bankrupt_Classification.ipynb*: Jupyter Notebook containing all data processing, training, evaluation, and visualization code.
-- *report.pdf*: Comprehensive report detailing the methodology, findings, and statistical analysis.
+- *Report.pdf*: Comprehensive report detailing the methodology, findings, and statistical analysis.
