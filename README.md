@@ -31,6 +31,3 @@ The project concludes that data balance significantly improves model accuracy an
 ### Repository Structure
 - *Bankrupt_Classification.ipynb*: Jupyter Notebook containing all data processing, training, evaluation, and visualization code.
 - *report.pdf*: Comprehensive report detailing the methodology, findings, and statistical analysis.
-
-### Acknowledgments
-This project was conducted as part of the Artificial Intelligence course in the Applied Informatics MSc program. Special thanks to my instructors for their guidance.
