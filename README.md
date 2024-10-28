@@ -27,9 +27,9 @@ The best-performing models (Gradient Boosting for balanced data and Multi-layer 
 
 ### Results
 - Balanced vs. Unbalanced Data: Models trained on balanced data consistently outperformed those trained on unbalanced data, particularly in recall and F1 Score.
-**Best Performing Models**:
-- **Balanced Data**: Gradient Boosting achieved the highest ROC AUC (0.8477), demonstrating strong class separation.
-- **Unbalanced Data**: Multi-Layer Perceptron achieved the best AUC (0.8482) under unbalanced conditions.
+- **Best Performing Models**:
+  - **Balanced Data**: Gradient Boosting achieved the highest ROC AUC (0.8477), demonstrating strong class separation.
+  - **Unbalanced Data**: Multi-Layer Perceptron achieved the best AUC (0.8482) under unbalanced conditions.
 - **Model Robustness**: Random Forests and Support Vector Machines displayed robustness to data imbalance but showed improved recall on balanced datasets, confirming the importance of balanced data for accurate bankruptcy prediction.
 - **Sensitivity and Specificity Constraints**: Despite the high AUC scores, models struggled to meet the dual performance constraints of detecting at least 60% of bankrupt companies (Sensitivity) and 70% of healthy companies (Specificity). This suggests further optimization or alternative approaches may be necessary to meet specific business requirements. For further insights, please refer to the statistical comparisons and visualizations included in the report.
 
