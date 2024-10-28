@@ -9,14 +9,15 @@ This analysis seeks to identify financial indicators predictive of bankruptcy. U
 ⋅⋅* **Model Training**: Several machine learning algorithms are tested and evaluated to compare performance across metrics like F1 Score, ROC AUC, and Confusion Matrix.
 
 ### Models Implemented
-Linear Discriminant Analysis (LDA)
-Logistic Regression (LR)
-Decision Tree (DT)
-Random Forest (RF)
-k-Nearest Neighbors (KNN)
-Naïve Bayes
-Support Vector Machine (SVM)
-Multi-layer Perceptron (MLP)
+- Linear Discriminant Analysis (LDA)
+- Logistic Regression (LR)
+- Decision Tree (DT)
+- Random Forest (RF)
+- k-Nearest Neighbors (KNN)
+- Naïve Bayes
+- Support Vector Machine (SVM)
+- Multi-layer Perceptron (MLP)
+  
 The best-performing models (Gradient Boosting for balanced data and Multi-layer Perceptron for unbalanced data) are statistically validated for reliability.
 
 ### Key Features
